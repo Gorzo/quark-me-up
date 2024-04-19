@@ -14,7 +14,7 @@ class GreetingResourceTest {
           .when().get("/hello")
           .then()
              .statusCode(200)
-             .body(is("Hello  from Quarkus With GitHub"));
+             .body(is("Hello from Quarkus With GitHub"));
     }
 
 }
