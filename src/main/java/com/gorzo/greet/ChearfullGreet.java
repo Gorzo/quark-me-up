@@ -1,4 +1,4 @@
-package com.gorzo;
+package com.gorzo.greet;
 
 import jakarta.enterprise.context.ApplicationScoped;
 

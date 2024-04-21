@@ -1,10 +1,9 @@
-package com.gorzo;
+package com.gorzo.greet;
 
 import jakarta.enterprise.context.ApplicationScoped;
-import lombok.Getter;
 
 @ApplicationScoped
-public class MeanGreet implements GreetingInterface{
+public class MeanGreet implements GreetingInterface {
 
     String greet = "Ugh you again!";
 

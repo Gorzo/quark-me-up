@@ -1,5 +1,8 @@
 package com.gorzo;
 
+import com.gorzo.greet.ChearfullGreet;
+import com.gorzo.greet.GreetingInterface;
+import com.gorzo.greet.MeanGreet;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 
